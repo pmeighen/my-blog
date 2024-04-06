@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.left-half {
+    width: 50%;
+    background-color: #ffff00; /* Yellow background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-right: 20px solid black; /* Border between halves */
+    border-radius: 50%;
+}
+
+.yellow-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #ffff00; /* Yellow circle */
+    border-radius: 50%;
+}
+
+.right-half {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+form {
+    max-width: 400px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
