@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog Posts</title>
-    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>My Blog Posts</h1>
-        <button onclick="window.history.back()">Back</button>
-        <label class="switch">
+        <div class="switch">
+            <button type="button" id="backButton">Back</button>
             <span id="toggleButton2">&#9728</span>
-            <span class="slider round"></span>
-        </label>
+        </div>
     </header>
     <main id="blog-posts">
         <!-- Blog posts will be dynamically added here -->
@@ -21,6 +20,7 @@
     <footer>
         <p>Check out the developer's portfolio <a href="https://pmeighen.github.io/patrick-meighen-portfolio/">here</a>.</p>
     </footer>
-    <script src="assets/js/blog.js"></script>
 </body>
+<script src="./assets/js/blog.js"></script>
+<script src="./assets/js/logic.js"></script>
 </html>

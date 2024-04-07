@@ -8,7 +8,7 @@ form.addEventListener('submit', function(event) {
 
     if (!username || !title || !content) {
         alert('Please complete the form');
-        return;
+        return; //early return
     }
 
     const post = {

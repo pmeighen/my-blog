@@ -1,5 +1,7 @@
+const backBtn = document.getElementById("backButton")
 document.addEventListener('DOMContentLoaded', function() {
     const blogPosts = document.getElementById('blog-posts');
+
     const posts = JSON.parse(localStorage.getItem('posts')) || [];
 
     posts.forEach(post => {
@@ -15,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-const modeToggle = document.getElementById('modeToggle');
-modeToggle.addEventListener('change', function() {
-    document.body.classList.toggle('dark-mode');
-});
+backBtn.addEventListener("click",function(){
+    window.location.href = 'index.html';
+})
+

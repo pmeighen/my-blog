@@ -1,48 +1,81 @@
 /* Set font to sans-serif for the entire blog page */
 body {
     font-family: sans-serif;
+    transition: background-color 0.5s ease;
 }
 
 /* Header styling */
 header {
     background-color: white;
-    border-bottom: 4px solid black; /* Heavy small black bottom border */
+    border-bottom: 4px solid black;
+    /* Heavy small black bottom border */
     margin-bottom: 10px;
+    transition: background-color 0.5s ease;
 }
+
 #toggleButton2 {
-    position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
+    /* position: absolute; */
+    /* top: 10px; */
+    /* Adjust as needed */
+    /* right: 10px; */
+    /* Adjust as needed */
     color: orangered;
     cursor: pointer;
-    font-size: 24px; /* Adjust the font size as needed */
-    z-index: 1000; /* Ensure it's above other content */
-    background-color: transparent; /* No background color */     
-} 
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    z-index: 1000;
+    /* Ensure it's above other content */
+    background-color: transparent;
+    /* No background color */
+}
 
 /* Main body styling */
 main {
-    border-top: 4px solid black; /* Small heavy top border */
+    border-top: 4px solid black;
+    /* Small heavy top border */
     margin-bottom: 10px;
 }
 
 /* Article entry styling */
 article {
-    border: 2px solid black; /* Heavy small black border */
-    margin: 20px; /* Small margin around the rectangular box */
-    padding: 20px; /* Add some padding inside the rectangular box */
+    border: 2px solid black;
+    /* Heavy small black border */
+    margin: 20px;
+    /* Small margin around the rectangular box */
+    padding: 20px;
+    /* Add some padding inside the rectangular box */
 }
 
 /* Title text styling */
 article h2 {
     background-image: linear-gradient(to right, black 50%, transparent 50%);
     background-position: 0 100%;
-    background-size: 100% 2px; /* Underline thickness */
-    background-repeat: repeat-x; /* Repeat horizontally */
-    padding-bottom: 5px; /* Add space below the underline */
-    margin-bottom: 10px; /* Adjust margin as needed */
+    background-size: 100% 2px;
+    /* Underline thickness */
+    background-repeat: repeat-x;
+    /* Repeat horizontally */
+    padding-bottom: 5px;
+    /* Add space below the underline */
+    margin-bottom: 10px;
+    /* Adjust margin as needed */
 }
+
 footer p {
-    font-size: 1.2em; /* Increase font size */
-    margin-bottom: 10px; /* Add a small margin under the text */
+    font-size: 1.2em;
+    /* Increase font size */
+    margin-bottom: 10px;
+    /* Add a small margin under the text */
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.switch {
+    position: absolute;
+    top: 10px;
+    /* Adjust as needed */
+    right: 10px;
+    /* Adjust as needed */
 }
