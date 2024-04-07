@@ -32,3 +32,7 @@ article h2 {
     padding-bottom: 5px; /* Add space below the underline */
     margin-bottom: 10px; /* Adjust margin as needed */
 }
+footer p {
+    font-size: 1.2em; /* Increase font size */
+    margin-bottom: 10px; /* Add a small margin under the text */
+}
