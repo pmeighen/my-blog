@@ -6,17 +6,22 @@
     <title>My Personal Blog</title>
     <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My First Blog</h1>
+        <button id="toggleButton">Toggle</button>
     </header>
     <main>
         <div class="left-half">
-            <div class="yellow-circle"></div>
+            <div class="yellow-circle">
+                <div class="circle-text">My First Blog</div>
+            </div>
         </div>
         <div class="right-half">    
             <form id="blog-form">
+                <label for="postContent" class="label-large">Whats's on your mind?</label>
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
                 <label for="title">Blog Title:</label>
@@ -28,5 +33,6 @@
         </div>
     </main>
     <script src="assets/js/form.js"></script>
+    <script src="assets/js/blog.js"></script>
 </body>
 </html>
