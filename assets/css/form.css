@@ -37,7 +37,7 @@ main {
     border-right: 0px solid black; /* Border between halves */
     border-radius: 50%;
     margin-right: 30px;
-    background-image: linear-gradient(#ffff5a, yellow);
+    background-image: linear-gradient(red, yellow);
 
 }
 
